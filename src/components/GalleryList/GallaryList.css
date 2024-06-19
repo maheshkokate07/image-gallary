@@ -1,0 +1,35 @@
+.image-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 0px;
+}
+
+.loader { 
+    margin-top: 270px;   
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.controls > button {
+    height: 40px;
+    width: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #cdcdcd;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+.controls > button:hover {
+    background-color: #dcdcdc;
+    cursor: pointer;
+}
